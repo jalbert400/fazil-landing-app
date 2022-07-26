@@ -112,7 +112,10 @@
 
             .menu-superior-marcas-items li {
               display: inline-block;
-              padding-right: 7px;
+            }
+
+            .menu-superior-marcas-items li img{
+              width: 83%;
             }
 
             .header-redes-sociales-items li {
@@ -719,10 +722,77 @@
             .ttl-landing-navidad{
               padding-bottom: 50px;
               background-size: cover !important;
-              height: 270px;
+              height: 650px;
               margin: 0 auto 40px auto;
-              background: url("../imgs/img_navidad.png") 50% 50% no-repeat #ffffff;
+              background: url("https://images.ctfassets.net/efpn4u8cnuye/5vLleEVaCgSexoreTfWUri/7e94fbe8f71efc85196776a0fdd09b9f/fondo-marcas.png") 50% 50% no-repeat #ffffff;
             }
+
+            .ttl-landing-marcas-app{
+              padding-bottom: 20px;
+            }
+            .ttl-landing-marcas-app-titulo{
+              font-size: 5em;
+              font-weight: 700;
+              color: #006054;
+              padding: 20px 0;
+              color: #006054;
+            }
+            .ttl-landing-marcas-app img{
+              width: 400px;
+            }
+            .ttl-landing-marcas-lista-items{
+              list-style: none;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+            }
+            .ttl-landing-marcas-lista-items li{
+             
+            }
+            .ttl-landing-marcas-lista-items li img{
+              width: 150px;
+            }
+            .form-email .form-horizontal{
+              width: 200px;
+            }
+            .form-email .form-horizontal .input-group{
+              padding-right: 40px;
+            }
+
+            .ttl-landing-footer-superior .form-email{
+              display: flex;
+              flex-direction: row;
+              justify-content: end;
+            }
+
+            .form-email .form-input-email{
+              padding-left: 27px;
+              width: 200px;
+              height: 43px;
+              border-color: #00ff00;
+              z-index: auto;
+              border-radius: 25px;
+              position: relative;
+              border-width: 2px
+            }
+            .form-email .input-group-btn-email{
+              position: absolute;
+              width: 0;
+              right: 54px;
+              top: -7px;
+            }
+
+            .form-email input{
+              padding-left: 27px;
+              width: 200px;
+              height: 45px;
+              border-color: #59b314;
+              border-radius: 25px;
+            }
+            .form-email input:active, .form-email input:focus, .form-email input:focus-visible{
+              border-color: #59b314;
+            }
+
 
             .ttl-landing-covertura{
               background-size: cover !important;
@@ -964,7 +1034,8 @@
                top: 0;
                left: 0;
                width: 100%;
-               height: 180px;
+               height: auto;
+               /*height: 180px;*/
             }
 
             .embed-responsive iframe{
@@ -1038,8 +1109,7 @@
               
             }
             .ttl-landing-navidad-carousel{
-              /*padding: 100px 250px;*/
-              padding: 100px 20%;
+              padding: 20px 20%;
             }
             .glideProductos-item{
               text-align: center;
@@ -1260,8 +1330,22 @@
             }
 
             .ttl-landing-footer-superior-titulo{
-              font-size: 28px;
-              line-height: 26px;
+              font-size: 36px;
+              line-height: 40px;
+              padding-bottom: 30px;
+            }
+
+            .ttl-landing-footer-medio-titulo{
+              font-size: 24px;
+              padding-bottom: 30px;
+            }
+
+            .ttl-landing-footer-superior-search{
+              text-align: right;
+            }
+
+            .img-icon-search{
+              width: 200px;
             }
 
             .ttl-landing-footer-superior-descripcion{
@@ -1387,6 +1471,10 @@
               display: none;
             }
 
+            .ttl-landing-marcas{
+              display: none;
+            }
+
             @media screen and (max-width: 1230px){
 
               .btn-descargar {
@@ -1464,6 +1552,10 @@
 
             @media screen and (max-width: 992px){
 
+              .ttl-landing-footer-superior-search {
+                text-align: center;
+              }
+
               .ttl-landing-simplifica-botom {
                 bottom: 8%;
                 left: 12%;
@@ -1472,7 +1564,7 @@
                 width: 95px;
               }
               .ttl-landing-footer-superior-titulo {
-                font-size: 24px;
+                font-size: 30px;
               }
               .menu-superior-marcas-items{
                 display: none;
@@ -1550,6 +1642,26 @@
 
             @media screen and (max-width: 768px){
 
+              .ttl-landing-marcas{
+                display: block;
+              }
+
+              .informacion-empresa-logo {
+                padding-bottom: 20px;
+              }
+
+              .ttl-landing-footer-superior-titulo {
+                padding-bottom: 0;
+              }
+
+              .ttl-landing-footer-superior-titulo {
+                font-size: 24px;
+              }
+
+              .ttl-landing-footer-superior-search {
+                text-align: center;
+              }
+
               .ttl-landing-covertura {
                 height: 500px;
               }
@@ -1581,15 +1693,25 @@
               .ttl-landing-footer-superior {
                 padding-bottom: 15px;
               }
-              .ttl-landing-footer-medio .row div:nth-child(2){
+              .ttl-landing-footer-medio .row .item-list-footer-medio:nth-child(1){
                 display: none;
               }
-              .ttl-landing-footer-medio .row div:nth-child(3){
+              .ttl-landing-footer-medio .row .item-list-footer-medio:nth-child(3){
                 display: none;
+              }
+              .ttl-landing-footer-medio .row .item-list-footer-medio:nth-child(4){
+                display: none;
+              }
+              .ttl-landing-footer-medio .row .item-list-footer-medio:nth-child(5){
+                display: none;
+              }
+              .ttl-landing-footer-medio .row .item-list-footer-medio:nth-child(6){
+                display: block;
               }
               .ttl-landing-footer-inferior-redes-sociales {
                 display: none;
               }
+              
               .ttl-landing-footer-inferior{
                 justify-content: center;
               }
@@ -1612,7 +1734,7 @@
                 text-align: left;
               }
               .ttl-landing-footer-medio-redes-sociales{
-                padding-bottom: 70px;
+                padding-bottom: 50px;
               }
               .redes-sociales-medio-items {
                 padding: 0;
@@ -1630,7 +1752,7 @@
                 width: 100%;
               }
               .ttl-landing-footer-medio .row div:first-child{
-                padding-bottom: 20px;
+                padding-bottom: 30px;
               }
               .ttl-landing-mision .row div:first-child{
                 display: none;
@@ -1775,6 +1897,16 @@
             }
 
             @media screen and (max-width: 500px){
+
+              .ttl-landing-footer-superior-titulo {
+                font-size: 20px;
+                line-height: 25px;
+              }
+
+              .ttl-landing-footer-medio-titulo {
+                font-size: 20px;
+                padding-bottom: 0px;
+              }
 
               .glideProductos-item-containt {
                 padding: 20px 14px;
